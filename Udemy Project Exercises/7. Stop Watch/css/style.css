@@ -1,0 +1,52 @@
+body { 
+    background: url("../images/bg.jpg")no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font: Arial, Helvetica, Sans-serif;
+}
+
+/* title */
+#header {
+    text-align: center;
+    font-size: 7vw;
+}
+
+/* lap timer */
+#lap {
+    text-align: right;
+    font-size: 4vw;
+}
+
+/* Timer */
+#time {
+    text-align: center;
+    font-size: 10vw;
+}
+
+/* buttons */
+#controlsContainer {
+    margin-bottom: 100px;
+}
+
+.control {
+    color: #fff;
+    background-color: coral;
+    border-radius: 100%;
+    height: 10vw;
+    width: 10vw;
+    text-align: center;
+    padding: 22% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+.control:active {
+    color: coral;
+    background: #fff;
+}
+
+/* laps */
+#laps {
+    max-height: 270px;
+    overflow-y: scroll;
+}
